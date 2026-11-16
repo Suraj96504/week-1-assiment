@@ -1,40 +1,63 @@
 # Sprout Studio Landing Page
 
-Week 1 assignment built using semantic HTML5, CSS3, and vanilla JavaScript. No build step, external UI library, or network assets are required.
+Week 1 web development assignment for WeIntern Pvt Ltd.
 
-## Objective and features
+## Objective
 
-Responsive navigation, illustrated hero, three services, studio process, contact CTA, and a labeled form with name, email, optional phone, and message.
+Create a responsive landing page for a fictional independent design studio.
 
-## Run
+## Tech stack
 
-Open `index.html` directly, or from the parent folder run `python -m http.server 8000` and visit this project at `http://localhost:8000/business-landing-page/`.
+HTML5, CSS3, and vanilla JavaScript. No external UI library, package installation, or build step is required.
 
-## Structure
+## Features
 
-- `index.html`: entry point (portfolio also includes about, projects, contact).
-- `css/style.css`: styles, breakpoints, and reduced-motion rules.
-- `js/script.js`: lightweight browser interactions.
-- `screenshots/`: desktop and mobile captures.
+- Studio navigation and hero with calls to action.
+- Two illustrated concept projects and a studio introduction.
+- Three services covering identity, web design, and frontend development.
+- Contact form with name, email, optional phone, and message fields.
 
-## Content and form limitations
+## Project structure
 
-Author: sample assignment implementation; replace with your own name. All people, business details, and concept projects are illustrative. Replace sample email addresses and platform homepage links before submitting. Forms use HTML validation and an accessible local status message; they do not send email or store messages. A real contact flow needs a backend or form service.
+- `index.html`: page markup.
+- `css/style.css`: typography, layouts, responsive rules, and interaction styles.
+- `js/script.js`: browser interactions.
+- `screenshots/`: four required desktop, mobile, and component captures.
+- `README.md`: project documentation.
 
-## Deployment
+## Run locally
 
-Not published. To deploy through GitHub Pages, upload the complete `week1-assignments` directory as repository contents, then enable Pages for the main branch and repository root in Settings. Add the actual repository and live URLs here after publishing. Never put secrets in frontend code.
+From the repository root:
+
+```powershell
+python -m http.server 8000 --directory week1-assignments
+```
+
+Open http://localhost:8000/business-landing-page/. You can also open this project's `index.html` directly.
+
+## Repository and deployment
+
+- [GitHub repository](https://github.com/Suraj96504/week-1-assiment)
+- [Live project](https://suraj96504.github.io/week-1-assiment/week1-assignments/business-landing-page/)
+
+Hosted using GitHub Pages from the `main` branch and repository root. The project lives inside `week1-assignments/business-landing-page/`.
+
+## Content and form behavior
+
+Forms use HTML validation and display a demo status message. They do not send email or store submissions. Some profile, contact, or concept content is illustrative; review personal details and social destinations before submission.
+
+Sprout is a fictional studio. The displayed work represents design concepts.
 
 ## Screenshots
-
-See `screenshots/`. Review at desktop, tablet, and mobile sizes before final submission.
-
-## Captured views
-
-![landing contact form](screenshots/landing-contact-form.png)
 
 ![landing desktop](screenshots/landing-desktop.png)
 
 ![landing hero mobile](screenshots/landing-hero-mobile.png)
 
 ![landing services](screenshots/landing-services.png)
+
+![landing contact form](screenshots/landing-contact-form.png)
+
+## Author
+
+[Suraj Kumar](https://github.com/Suraj96504)
