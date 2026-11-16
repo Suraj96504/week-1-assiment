@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CSS Layout Lab — Week 1 frontend assignment.">
+  <title>CSS Layout Lab</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body><a class="skip" href="#main">Skip to content</a>
+  <header>
+    <nav class="wrap" aria-label="Main navigation"><a class="brand" href="index.html">layout / lab</a>
+      <div class="links"><a href="#flexbox">Flexbox</a><a href="#grid">Grid</a><a href="#animation">Motion</a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="wrap"><span class="eyebrow">Task 03 / CSS challenge</span>
+      <h1>One stylesheet.<br>Room to experiment.</h1>
+      <p class="lead">Three focused studies in flexible layouts, responsive grids, and purposeful motion. Resize the
+        browser to explore.</p>
+    </section>
+    <section id="flexbox" class="band">
+      <div class="wrap"><span class="eyebrow">01 / One-dimensional layout</span>
+        <h2>Better together. Built with Flexbox.</h2>
+        <div class="flex-row">
+          <article class="card"><span class="tag">01</span>
+            <h3>Flexible by default</h3>
+            <p>Three equal cards share one row on desktop and stack naturally on mobile.</p>
+          </article>
+          <article class="card"><span class="tag">02</span>
+            <h3>Space to breathe</h3>
+            <p>Gap, alignment, and flexible widths keep the composition balanced.</p>
+          </article>
+          <article class="card"><span class="tag">03</span>
+            <h3>A little feedback</h3>
+            <p>Hover over a card to see a subtle lift. Reduced motion is respected.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="grid" class="wrap"><span class="eyebrow">02 / Two-dimensional layout</span>
+      <h2>A place for every idea.</h2>
+      <div class="gallery">
+        <article class="tile"><span class="tag">Study / 01</span><strong>Structure</strong>
+          <p>Start with semantic markup.</p>
+        </article>
+        <article class="tile"><span class="tag">Study / 02</span><strong>Rhythm</strong>
+          <p>Use consistent spacing.</p>
+        </article>
+        <article class="tile"><span class="tag">Study / 03</span><strong>Hierarchy</strong>
+          <p>Make the important things clear.</p>
+        </article>
+        <article class="tile"><span class="tag">Study / 04</span><strong>Contrast</strong>
+          <p>Keep the content readable.</p>
+        </article>
+        <article class="tile"><span class="tag">Study / 05</span><strong>Flexibility</strong>
+          <p>Adapt to the available space.</p>
+        </article>
+        <article class="tile"><span class="tag">Study / 06</span><strong>Polish</strong>
+          <p>Refine the smallest details.</p>
+        </article>
+      </div>
+    </section>
+    <section id="animation" class="band">
+      <div class="wrap"><span class="eyebrow">03 / Transitions &amp; keyframes</span>
+        <h2>Motion with a purpose.</h2>
+        <div class="split">
+          <article class="card">
+            <h3>A subtle button lift</h3>
+            <p>Hover or focus the link, then jump back to the Flexbox study.</p><a class="button" href="#flexbox">Try
+              the interaction &uarr;</a>
+          </article>
+          <article class="card">
+            <h3>Loading indicator</h3>
+            <p><span class="spinner" aria-hidden="true"></span>Animation demonstration</p>
+            <p class="notice">Visual sample only; no background operation is running. Animation is disabled when reduced
+              motion is enabled.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap"><span>&copy; 2026 layout / lab · Fictional demonstration project</span><span><a
+          href="#flexbox">Flexbox</a><a href="#grid">Grid</a><a href="#animation">Motion</a></span></div>
+  </footer>
+</body>
+
+</html>
