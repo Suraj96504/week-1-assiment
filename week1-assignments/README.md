@@ -10,3 +10,4 @@ Open `index.html` for the project directory. Each project also works independent
 
 Each project has a README and screenshots. No dependencies or build tools are needed.
 
+This is my link for project live-https://suraj96504.github.io/week-1-assiment/week1-assignments/
